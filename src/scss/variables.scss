@@ -1,0 +1,14 @@
+$input-font-size: 50px !important;
+$text-field-padding: 54px !default;
+
+.test {
+  border: 1px solid red;
+}
+
+.v-input.v-text-field.topper .v-text-field__slot input {
+  color: rebeccapurple;
+
+  &::placeholder {
+    color: orchid;
+  }
+}
